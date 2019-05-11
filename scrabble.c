@@ -17,6 +17,11 @@ int main(int argc, char **argv)
 	char *word;
 	int wl = 0;
 	int i = 0;
+	if(argc==1)
+	{
+		printf("gib hinter den Befehl die Buchstaben ein\n");
+		return 0;
+	}
 	if(argc>2)
 	{
 		printf("keine Leerzeichen in dem Programmaufruf nach der Trennung zum Befehl.\n");
